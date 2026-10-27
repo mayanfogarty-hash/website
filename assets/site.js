@@ -4,6 +4,7 @@
 
     const links = [
         ["index.html", "Home"],
+        ["delivery.html", "Tech delivery"],
         ["access.html", "Event access"],
         ["goods.html", "Made goods"],
         ["computers.html", "Computers"],
@@ -74,6 +75,7 @@
                 field("Email", "email", "email", true, false) +
                 '<div><label for="offer">Offer</label><select id="offer" name="offer" required>' +
                     '<option value="">Choose one</option>' +
+                    '<option value="delivery">Tech delivery &amp; onsite setup</option>' +
                     '<option value="captions">Live room captions</option>' +
                     '<option value="stream">Live stream</option>' +
                     '<option value="video">Caption a finished video</option>' +
@@ -93,6 +95,7 @@
     const form = mount.querySelector("form");
     const select = form.querySelector("[name=offer]");
     const allowed = {
+        delivery: true,
         captions: true,
         stream: true,
         video: true,

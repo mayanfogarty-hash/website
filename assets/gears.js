@@ -70,21 +70,29 @@
     function drawBulb(x, y, scale, intensity) {
         ctx.save();
         ctx.translate(x, y);
-        const glow = ctx.createRadialGradient(0, 6 * scale, 2, 0, 6 * scale, 78 * scale);
-        glow.addColorStop(0, "rgba(255, 210, 120, " + (0.08 + intensity * 0.42) + ")");
+        const glow = ctx.createRadialGradient(0, 4 * scale, 2, 0, 4 * scale, 84 * scale);
+        glow.addColorStop(0, "rgba(255, 210, 120, " + (0.08 + intensity * 0.45) + ")");
         glow.addColorStop(1, "rgba(255, 210, 120, 0)");
         ctx.fillStyle = glow;
         ctx.beginPath();
-        ctx.arc(0, 6 * scale, 78 * scale, 0, Math.PI * 2);
+        ctx.arc(0, 4 * scale, 84 * scale, 0, Math.PI * 2);
         ctx.fill();
 
+        // Cord hanging from ceiling down to socket top
         ctx.strokeStyle = "rgba(196, 184, 164, 0.45)";
         ctx.lineWidth = 1.5;
         ctx.beginPath();
-        ctx.moveTo(0, -78 * scale);
-        ctx.lineTo(0, -36 * scale);
+        ctx.moveTo(0, -y);
+        ctx.lineTo(0, -32 * scale);
         ctx.stroke();
 
+        // Socket base at the top
+        ctx.fillStyle = "#5c5348";
+        ctx.fillRect(-7 * scale, -32 * scale, 14 * scale, 4 * scale);
+        ctx.fillStyle = "#8a7d68";
+        ctx.fillRect(-8 * scale, -28 * scale, 16 * scale, 8 * scale);
+
+        // Glass bulb oriented downward
         ctx.beginPath();
         ctx.ellipse(0, 0, 18 * scale, 26 * scale, 0, 0, Math.PI * 2);
         ctx.fillStyle = "rgba(255, 236, 196, " + (0.08 + intensity * 0.5) + ")";
@@ -92,17 +100,14 @@
         ctx.strokeStyle = "rgba(255, 228, 186, 0.85)";
         ctx.stroke();
 
+        // Filament pointing down
         ctx.beginPath();
-        ctx.moveTo(-6 * scale, 10 * scale);
-        ctx.quadraticCurveTo(0, -6 * scale, 6 * scale, 10 * scale);
+        ctx.moveTo(-6 * scale, -10 * scale);
+        ctx.quadraticCurveTo(0, 6 * scale, 6 * scale, -10 * scale);
         ctx.strokeStyle = "rgba(255, " + Math.round(170 + intensity * 70) + ", 90, " + (0.35 + intensity * 0.65) + ")";
         ctx.lineWidth = 2;
         ctx.stroke();
 
-        ctx.fillStyle = "#8a7d68";
-        ctx.fillRect(-8 * scale, 24 * scale, 16 * scale, 8 * scale);
-        ctx.fillStyle = "#5c5348";
-        ctx.fillRect(-7 * scale, 32 * scale, 14 * scale, 4 * scale);
         ctx.restore();
     }
 

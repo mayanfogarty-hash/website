@@ -1,0 +1,14 @@
+{
+  "name": "maximizeyourtech",
+  "version": "1.0.0",
+  "description": "Maximize Your Tech website",
+  "private": true,
+  "scripts": {
+    "start": "node serve.mjs",
+    "lighthouse": "node run-lighthouse.mjs",
+    "test": "node run-lighthouse.mjs"
+  },
+  "devDependencies": {
+    "lighthouse": "^12.3.0"
+  }
+}

@@ -1,0 +1,51 @@
+# Maximize Your Tech, LLC — Comprehensive Service Knowledge Base
+
+Deaf-owned shop based in Philomath, Oregon. Provides local tech and electronics delivery, onsite mounting and assembly, event access (captions and streaming), custom fabrication (vinyl, 3D printing, engraving), and custom computer systems.
+
+## Contact Information
+- Address: 560 Mc Call Way, Philomath, OR, USA
+- Email: mayan.fogarty@maximizeyourtech.com
+- Website: https://maximizeyourtech.com/
+- Hours: Mon–Thu 9:00 AM – 3:00 PM, Fri 9:00 AM – 12:00 PM PST. Closed Sat–Sun.
+
+---
+
+## 1. Tech & Electronics Delivery (`delivery.html`)
+- **Concept**: Like an on-demand courier specialized exclusively in electronics, pickup from major retail stores or regional shops directly to homes or offices, with optional white-glove unboxing, mounting, and setup.
+- **Participating Retailers**: Best Buy, Fred Meyer, Target, Walmart, Home Depot, Costco, and any local tech store.
+- **Service Area**: Philomath, Corvallis, Albany, Lebanon, Salem, and surrounding Willamette Valley communities.
+- **Tiers & Pricing**:
+  - **Standard Delivery**: $45 base + mileage. Covers electronics, monitors, PC desktops, audio equipment, and TVs up to 55 inches fitting a standard cargo vehicle.
+  - **Truck Delivery**: $95 base + mileage. Required for TVs 55" and above (65", 75", 85"+), large sound systems, server racks, heavy displays, or multi-box bulk pickups.
+  - **Onsite Assembly & Setup**: $60 / hour (1-hour minimum, billed in 30-min increments). Includes TV wall-mounting, TV stand setup, unboxing, cable routing, audio/soundbar wiring, and Wi-Fi / input pairing.
+  - **Multi-Store Custom Runs**: Quoted based on number of stops and vehicle requirements.
+
+---
+
+## 2. Event Access Services (`access.html`)
+- **Room Captions**: Live verbatim or edited captioning projected onto TVs or screens in the room for conferences, festivals, and meetings. Rate: from $60 / hour.
+- **Live Streams**: Multi-camera switching, audio feeds, live captions overlaid, and clean output streamed to YouTube, Zoom, or Twitch with full archive recording. Rate: from $60 / hour.
+- **Finished Video Captioning**: Post-production open or closed captions synced to video files so content is completely accessible. Rate: $0.80 / minute of video.
+
+---
+
+## 3. Custom Computer Systems & Hardware (`computers.html`)
+- **Entry Build**: Quoted from parts list. AMD Ryzen 5 7600 / Intel Core i5-12400F, Radeon RX 7700 XT/7800 XT or RTX 4060/4070, 16–32GB DDR5-6000 CL30, 1TB Gen 4 NVMe SSD, 650–750W 80+ Gold. Assembly fee: $100–$200.
+- **Mid-Range Build**: $1,000–$1,800 + assembly ($100–$200). AMD Ryzen 5 7600X or Intel Core Ultra 7, NVIDIA RTX 5060/5070 or AMD RX 9070 XT, 32GB DDR5-6000+, 1–2TB Gen 4 NVMe SSD, liquid cooling.
+- **High-End Build**: Quoted from parts list. AMD Ryzen 9 9950X3D or Intel Core i9, NVIDIA RTX 5090 / RX 9000, 32GB+ DDR5, 2TB+ Gen 5 NVMe, 850–1000W+ Gold/Platinum. Assembly fee: $100–$200.
+- **Hardware Upgrades**: Swapping components in existing rigs. Labor is $50–$100+ depending on part.
+- **Woojer Vest 4**: Haptic feedback vest carried under bulk distribution agreement for $407 (current retail list price).
+
+---
+
+## 4. Made Goods & Fabrication (`goods.html`)
+- **Labor Rate**: Published shop rate of $25 / hour. Materials and machine time quoted by size.
+- **Vinyl Decals, Hats & Mugs**: Precision cut vinyl for flat surfaces, vehicle decals, heat press for hats and mugs. Blank items can be supplied by customer or sourced.
+- **3D Printing**: Bed sizes up to 6×6" (Medium) and 12×12" (Large). Rapid prototypes, replacement parts, brackets, enclosures.
+- **Laser Engraving**: Clean engraving on wood, acrylic, anodized metals, and personalized items.
+
+---
+
+## 5. Quote Submission & Ordering
+Quotes can be requested directly via email or through the web interface at `https://maximizeyourtech.com/contact.html#quote`.
+No sensitive credentials or user data are stored on the web server; requests format directly to `mailto:mayan.fogarty@maximizeyourtech.com`.
